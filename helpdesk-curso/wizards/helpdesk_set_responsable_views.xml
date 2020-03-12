@@ -8,6 +8,9 @@
                 <p>
                 Are your sure you want to set as responsable?
                 </p>
+                <group name="name">
+                    <field name="tickets_qty" readonly="1"/>
+                </group>
 
                 <footer>
                     <button name="set_responsable"
