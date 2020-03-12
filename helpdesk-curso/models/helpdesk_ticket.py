@@ -11,17 +11,27 @@ class HelpdeskTicket (models.Model):
     stage_id = fields.Many2one(
         comodel_name='helpdesk.ticket.stage',
         string='Stage',
-        required=True)
+        required=False)
     team_id = fields.Many2one(
         comodel_name='helpdesk.team',
         string='Team',
-        required=True)
+        required=False)
     user_ids = fields.Many2many(
         comodel_name='res.users',
         relation="helpdesk_ticket_users_rel",
         column1="ticket_id", column2="user_id",
         string='Users',
     )
+    responsable_id = fields.Many2one(
+        comodel_name='res.users',
+        string='Responsable')
+
+
+    def set_responsable(self):
+        self.ensure_one()
+        self.responsable_id = self.env.user
+
+
     # """
     # @api.onchange('team_id')
     # def onchange_method(self):
