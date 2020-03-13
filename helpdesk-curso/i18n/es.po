@@ -1,0 +1,406 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk-curso
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-13 11:06+0000\n"
+"PO-Revision-Date: 2020-03-13 11:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_needaction
+msgid "Action Needed"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_ids
+msgid "Activities"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.view_helpdesk_set_responsable_form
+msgid "Are your sure you want to set as responsable?"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_ticket_view_form
+msgid "Assign to me"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_ticket_view_form
+msgid "Assitn to me (Wizard)"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.ui.menu,name:helpdesk-curso.helpdesk_config_main_menu
+msgid "Config"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.view_helpdesk_set_responsable_form
+msgid "Confirm"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable__create_uid
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__create_uid
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__create_uid
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable__create_date
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__create_date
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__create_date
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__date_deadline
+msgid "Date limit"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model,name:helpdesk-curso.model_helpdesk_team
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__description
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_ticket_view_form
+msgid "Description"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.view_helpdesk_set_responsable_form
+msgid "Discard"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable__display_name
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__display_name
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__display_name
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__email_cc
+msgid "Email cc"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_channel_ids
+msgid "Followers (Channels)"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_ticket_view_form
+msgid "HelpDesk Ticket"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_ticket_view_tree
+msgid "HelpDesk Tickets"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_team_view_form
+msgid "HelpDesk team"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_team_view_tree
+msgid "HelpDesk teams"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_ticket_stage_view_form
+msgid "HelpDesk ticket stage"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_ticket_stage_view_tree
+msgid "HelpDesk ticket stages"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.ui.menu,name:helpdesk-curso.helpdesk_menu
+msgid "Helpdesk"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_res_users__helpdesk_code
+msgid "Helpdesk code"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_res_users__helpdeskteam_id
+msgid "Helpdesk team"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable__id
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__id
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__id
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage__id
+msgid "ID"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__message_needaction
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable____last_update
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team____last_update
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket____last_update
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable__write_uid
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__write_uid
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__write_uid
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable__write_date
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__write_date
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__write_date
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__email_cc
+msgid "List of cc from incoming emails."
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:res.groups,name:helpdesk-curso.group_user_helpdesk
+msgid "Member Helpdesk Team"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__name
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__name
+msgid "Name"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__responsable_id
+msgid "Responsable"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.actions.act_window,name:helpdesk-curso.action_helpdesk_set_responsable
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.view_helpdesk_set_responsable_form
+msgid "Set Responsable"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__stage_id
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket_stage__name
+msgid "Stage"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.ui.menu,name:helpdesk-curso.menu_hd_stage
+msgid "Stages"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__team_id
+msgid "Team"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.actions.act_window,name:helpdesk-curso.helpdesk_team_action
+#: model:ir.ui.menu,name:helpdesk-curso.menu_hd_team
+msgid "Teams"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.actions.act_window,name:helpdesk-curso.helpdesk_ticket_stage_action
+msgid "Ticket Stages"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.actions.act_window,name:helpdesk-curso.helpdesk_ticket_action
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__ticket_ids
+#: model:ir.model.fields,field_description:helpdesk-curso.field_res_users__ticket_ids
+#: model:ir.ui.menu,name:helpdesk-curso.helpdesk_ticket_main_menu
+#: model:ir.ui.menu,name:helpdesk-curso.menu_hd_ticket
+#: model_terms:ir.ui.view,arch_db:helpdesk-curso.helpdesk_team_view_form
+msgid "Tickets"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_set_responsable__tickets_qty
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__tickets_qty
+msgid "Tickets Qty"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,help:helpdesk-curso.field_helpdesk_ticket__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model,name:helpdesk-curso.model_res_users
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_team__user_ids
+#: model:ir.model.fields,field_description:helpdesk-curso.field_helpdesk_ticket__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model,name:helpdesk-curso.model_helpdesk_set_responsable
+msgid "helpdesk.set.responsable"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model,name:helpdesk-curso.model_helpdesk_ticket
+msgid "helpdesk.ticket"
+msgstr ""
+
+#. module: helpdesk-curso
+#: model:ir.model,name:helpdesk-curso.model_helpdesk_ticket_stage
+msgid "helpdesk.ticket.stage"
+msgstr ""
