@@ -57,10 +57,9 @@ class HelpdeskTicket (models.Model):
 
     @api.model
     def create(self, vals):
-        date_deadline = vals.get('date_deadline')
-        user_id = vals.get('responsable_id')
-        user = self.env['res.users'].browse(user_id)
-        vals.update({'description': user.name + date_deadline})
+        date_deadline = vals.get('date_deadline', 'no date')
+        name = vals.get('name', 'no name')
+        vals.update({'description': name + ' - ' + date_deadline})
         return super(HelpdeskTicket, self).create(vals)
 
     # """
