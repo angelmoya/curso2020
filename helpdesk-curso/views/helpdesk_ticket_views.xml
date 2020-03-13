@@ -20,9 +20,9 @@
             <group name="date_deadline">
               <field name="date_deadline"/>
               <field name="responsable_id"/>
+              <field name="tickets_qty" />
               <button string="Assign to me" name="set_responsable" type="object"/>
-              <button string="Assitn to me (Wizard)" type="action"
-                            name="%(action_helpdesk_set_responsable)d"/>
+              <button string="Assitn to me (Wizard)" type="action" name="%(action_helpdesk_set_responsable)d"/>
             </group>
           </group>
           <group name="description" string="Description">
@@ -30,6 +30,12 @@
           </group>
           <!-- <group name="user_ids" string="Users"> <field name="user_ids" widget="many2many_tags" nolabel="1"/> </group> -->
         </sheet>
+
+        <div class="oe_chatter">
+          <field name="message_follower_ids" widget="mail_followers"/>
+          <field name="activity_ids" widget="mail_activity"/>
+          <field name="message_ids" widget="mail_thread" options="{'post_refresh': 'recipients'}"/>
+        </div>
       </form>
     </field>
   </record>
@@ -42,6 +48,8 @@
         <field name="name"/>
         <field name="description" optional="hide"/>
         <field name="date_deadline" optional="show"/>
+        <field name="responsable_id"/>
+        <field name="tickets_qty" />      
       </tree>
     </field>
   </record>
